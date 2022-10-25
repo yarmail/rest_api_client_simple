@@ -1,0 +1,25 @@
+Создаем простой новый Maven проект (можно без архитипа)
+
+---
+
+POM
+для парсинга json сообщений заходим
+на https://mvnrepository.com
+и ищем - jackson
+Находим - Jackson Databind
+<artifactId>jackson-databind</artifactId>
+
+
+Нам нужен удобный класс для работы с удаленным
+REST API сервисом - RestTemplate
+Для подключения класса  подключаем зависимость из Spring
+Spring WEB.
+<artifactId>spring-web</artifactId>
+
+---
+
+Копируем, проверяем или создаем .gitignore и README.md
+в корне проекта
+
+
+
