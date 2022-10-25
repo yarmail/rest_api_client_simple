@@ -65,13 +65,5 @@ public class Client {
         Client client = new Client();
         client.GetExample();
         client.PostExample();
-
-
-
-
-
-
-
-
     }
 }
